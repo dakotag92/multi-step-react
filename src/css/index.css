@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: ubuntu;
+}
+
+body {
+  background-color: hsl(217, 100%, 97%);
+}
+li {
+  list-style: none;
+}
+p {
+  color: hsl(231, 11%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: hsl(231, 100%, 99%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

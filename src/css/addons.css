@@ -1,0 +1,60 @@
+#addons-container {
+  background-color: hsl(0, 0%, 100%);
+  height: 40em;
+  width: 65%;
+  margin-left: 10%;
+  border: 1px solid hsl(231, 100%, 99%);
+  border-radius: 15px;
+  position: absolute;
+  top: 7em;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#margin-div {
+  margin-top: 1.5em;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.price-element {
+  margin-right: 0.5em;
+}
+
+.addons {
+  border: 1px solid hsl(231, 11%, 63%);
+  border-radius: 10px;
+  margin-top: 1em;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+.addons h2 {
+  font-size: 1.4em;
+}
+
+@media (max-width: 465px) {
+  .price-element {
+    font-size: small;
+  }
+  .addons h2 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 390px) {
+  .price-element {
+    font-size: smaller;
+  }
+  .addons {
+    width: 90%;
+  }
+}

@@ -1,0 +1,115 @@
+#personalInfoContainer {
+  background-color: hsl(0, 0%, 100%);
+  height: 35em;
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid hsl(231, 100%, 99%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 7em;
+  z-index: 1;
+}
+
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: center;
+  gap: 1.2em;
+  line-height: 1;
+}
+
+.piSections input {
+  height: 5vh;
+  width: 100%;
+  border: 1px solid hsl(231, 11%, 63%);
+  border-radius: 5px;
+}
+
+#piHeading {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+#piHeading p {
+  width: 80%;
+  font-size: 18px;
+}
+@media (min-width: 550px) {
+  /* .personalInfo {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 0;
+    line-height: 1.2;
+  }
+  .piSections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .piSections input {
+    height: 5vh;
+    width: 350px;
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: 5px;
+  }
+
+  #piHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  #piHeading p {
+    width: 60%;
+    font-size: 25px;
+  } */
+}
+@media (min-width: 920px) {
+  /* .personalInfo {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 0;
+    line-height: 1.2;
+  }
+  .piSections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .piSections input {
+    height: 5vh;
+    width: 450px;
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: 5px;
+  }
+
+  #piHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+  #piHeading p {
+    width: 60%;
+    font-size: 30px;
+  } */
+}

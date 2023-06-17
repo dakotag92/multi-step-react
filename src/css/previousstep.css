@@ -1,0 +1,25 @@
+#previous-btn-section {
+  height: 5em;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+
+#previous-btn {
+  border: 1px solid hsl(213, 96%, 18%);
+  color: hsl(231, 100%, 99%);
+  background-color: hsl(213, 96%, 18%);
+  padding: 0.7em 1em;
+  height: 3em;
+  width: 8em;
+  font-size: 14px;
+  border-radius: 7px;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+#next-btn:hover {
+  cursor: pointer;
+}

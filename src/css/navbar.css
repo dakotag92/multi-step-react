@@ -1,0 +1,33 @@
+#nav-bar {
+  background-image: url("assets/images/bg-sidebar-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 10.5em;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.buttons {
+  background-color: transparent;
+  border: 1px solid hsl(231, 100%, 99%);
+  color: hsl(231, 100%, 99%);
+  font-size: 25px;
+  border-radius: 50%;
+  height: 43px;
+  width: 43px;
+  margin-top: 2em;
+  font-family: Ubuntu;
+}
+.buttons:hover,
+.buttons.active {
+  color: black;
+  background-color: hsl(231, 100%, 99%);
+}
+.buttons-whole {
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-around;
+  width: 65vw;
+}

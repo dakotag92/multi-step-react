@@ -1,0 +1,58 @@
+#billing-select {
+  background-color: hsl(217, 100%, 97%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  border-radius: 10px;
+  height: 3em;
+  margin-top: 1.5em;
+}
+#billing-select div {
+  display: flex;
+  font-size: 5px;
+}
+#billing-select div h3 {
+  font-size: 25px;
+}
+
+#select-plan {
+  background-color: hsl(0, 0%, 100%);
+  height: 35em;
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid hsl(231, 100%, 99%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 7em;
+  z-index: 1;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#select-plan .btn {
+  width: 20em;
+  margin: 0.5em 0;
+  color: black;
+}
+#select-plan img {
+  margin-right: 1em;
+}
+#arcade-btn {
+  display: flex;
+  align-items: center;
+}
+#advanced-btn {
+  display: flex;
+  align-items: center;
+}
+
+#pro-btn {
+  display: flex;
+  align-items: center;
+}
